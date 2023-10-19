@@ -17,7 +17,7 @@ exports.sendMail = async (req, resp) => {
     });
 
     // setup email data with unicode symbols
-    let sendText=`Hi, you have recieved a message from ${subject} my email is ${reciepents} and my msg ${msg}`
+    let sendText=`Hi, you have recieved a message from: ${subject} my email is: ${reciepents} and my msg: ${msg}`
 
     let mailOptions = {
       from: "info@effectualservices.in",
