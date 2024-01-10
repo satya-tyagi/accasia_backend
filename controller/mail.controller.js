@@ -20,8 +20,8 @@ exports.sendMail = async (req, resp) => {
     let sendText=`Hi, you have recieved a message from: ${subject} my email is: ${reciepents} and my msg: ${msg}`
 
     let mailOptions = {
-      from: "nrussell@acaciaresearchgroup.com",
-      to: 'satya.tyagi@effectualservices.com',
+      from: "acacia@effectualservices.in",
+      to: 'nrussell@acaciaresearchgroup.com',
       subject: 'Acacia form submit Data',
       text: sendText,
     };
