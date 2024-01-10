@@ -21,7 +21,7 @@ exports.sendMail = async (req, resp) => {
 
     let mailOptions = {
       from: "info@effectualservices.in",
-      to: 'satya.tyagi@effectualservices.com',
+      to: 'nrussell@acaciaresearchgroup.com',
       subject: 'Acacia form submit Data',
       text: sendText,
     };
