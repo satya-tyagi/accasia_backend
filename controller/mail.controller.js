@@ -11,8 +11,8 @@ exports.sendMail = async (req, resp) => {
       host: "smtp.office365.com",
       port: 587,
       auth: {
-        user: "info@effectualservices.in",
-        pass: "Nak45276",
+        user: "acacia@effectualservices.in",
+        pass: "Yok56934",
       },
     });
 
@@ -20,8 +20,8 @@ exports.sendMail = async (req, resp) => {
     let sendText=`Hi, you have recieved a message from: ${subject} my email is: ${reciepents} and my msg: ${msg}`
 
     let mailOptions = {
-      from: "info@effectualservices.in",
-      to: 'nrussell@acaciaresearchgroup.com',
+      from: "acacia@effectualservices.in",
+      to: 'satya.tyagi@effectualservices.com',
       subject: 'Acacia form submit Data',
       text: sendText,
     };
